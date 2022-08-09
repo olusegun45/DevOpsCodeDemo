@@ -13,7 +13,7 @@ pipeline{
                  git 'https://github.com/Sonal0409/DevOpsClassCodes.git'
               }
           }
-          stage('Compile'){
+          stage('Compile the code'){
              
               steps{
                   echo 'complie the code..'
